@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharityKitchenDataService", "Charity Kitchen\CharityKitchenDataService.csproj", "{FAE8EC32-873C-4313-9EA5-BCBB66DEE811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharityKitchen", "CharityKitchen\CharityKitchen.csproj", "{7488564C-085E-4A8A-98ED-2F8FDD33E335}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FAE8EC32-873C-4313-9EA5-BCBB66DEE811} = {FAE8EC32-873C-4313-9EA5-BCBB66DEE811}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAE8EC32-873C-4313-9EA5-BCBB66DEE811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE8EC32-873C-4313-9EA5-BCBB66DEE811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE8EC32-873C-4313-9EA5-BCBB66DEE811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE8EC32-873C-4313-9EA5-BCBB66DEE811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7488564C-085E-4A8A-98ED-2F8FDD33E335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7488564C-085E-4A8A-98ED-2F8FDD33E335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7488564C-085E-4A8A-98ED-2F8FDD33E335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7488564C-085E-4A8A-98ED-2F8FDD33E335}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
